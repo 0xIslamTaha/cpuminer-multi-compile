@@ -17,7 +17,7 @@ fi
 # copy the binary to the target folder
 # create directories if required
 echo "---> copy binary itself"
-cp "$PATH_TO_BINARY" "$TARGET_FOLDER"
+cp -p "$PATH_TO_BINARY" "$TARGET_FOLDER"
 
 # copy the required shared libs to the target folder
 # create directories if required
@@ -39,5 +39,5 @@ fi
 # curl --upload-file cpuminer_arm_7.tar.gz https://transfer.sh/cpu_arm_7.tar.gz
 echo "Done!"
 
-# bash cpld.bash /opt/code/cpuminer-multi/cpuminer /tmp/cpuminer
+
 
