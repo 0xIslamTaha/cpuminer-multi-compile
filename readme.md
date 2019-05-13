@@ -9,7 +9,7 @@ Ther `compiling.sh` script will clone https://github.com/tpruvot/cpuminer-multi 
 ```bash
 git clone 
 tar -xzf {CPUMINER.tar.gz}
-chroor cpuminer_* /bin/cpuminer -h
+chroot cpuminer_* /bin/cpuminer -h
 ```
 
 ## How could u contribute?
